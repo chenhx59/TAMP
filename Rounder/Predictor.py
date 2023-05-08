@@ -2,7 +2,7 @@ from collections import defaultdict
 from functools import partial, reduce
 from torch.utils.data.dataloader import DataLoader
 from torch.nn.utils.rnn import pad_packed_sequence, pad_sequence, pack_padded_sequence
-from trainer import predict, train_state_model, train_ntm
+#from trainer import predict, train_state_model, train_ntm
 from model.models import MappingModel, StateModel, ModelOutputForPlan
 from model import Lda
 from model.dataset.data_reader import SimpleData, StateData
